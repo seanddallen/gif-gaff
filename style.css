@@ -1,0 +1,77 @@
+/* Overall CSS */
+
+body {
+    font-family: 'Boogaloo', Verdana, Arial;
+    max-width: 94vw;
+    min-height: 96vh;
+    padding: 2vh 2vw;
+}
+
+p, span {
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin: 0;
+}
+
+label {
+    font-weight: normal;
+}
+
+#top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* GIF Button CSS */
+
+header {
+    min-height: 50px;
+}
+
+.btn-danger,
+.btn-info {
+    margin: 5px;
+    min-width: 120px;
+}
+
+.button-holder,
+.gif-holder {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 94vw;
+}
+
+/* GIF CSS */
+
+.gif-div {
+    margin: 2% auto;
+    max-width: 92vw;
+    min-width: 300px;
+}
+
+.gif {
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* Form CSS */
+
+.btn-success {
+    margin: 5px 0;
+}
+
+input[type="text"] {
+    font-size: 24px;
+}
+
+#submit-button {
+    margin-left: 10px; 
+}
+#trending-button {
+    margin-left: 10px; 
+}

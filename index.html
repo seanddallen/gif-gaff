@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIF-GAFF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-S7YMK1xjUjSpEnF4P8hPUcgjXYLZKK3fQW1j5ObLSl787II9p8RO9XUGehRmKsxd" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="center-block">
+    <div class="row center-block">
+        <div class="col-xs-12 form-sidebar">
+            <!-- Form for searching gifs -->
+            <form>
+                <div id="top-bar" class="form-group">
+                    <input id="searchInput" class="form-control" placeholder="Search Gifs" type="text" value="">
+                    <button type="submit" class="btn btn-success" id="submit-button">
+                        <span>Search</span>
+                    </button>
+                    <button type="submit" class="btn btn-danger" id="trending-button">
+                        <span>Trending</span>
+                    </button>
+                    <button type="submit" class="btn btn-danger" id="random-button">
+                        <span>Random</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row center-block">
+        <!-- GIF holder div -->
+        <div class="col-xs-12 gif-holder clearfix pull-left">
+
+        </div>
+    </div>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
